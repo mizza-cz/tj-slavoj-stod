@@ -12,9 +12,9 @@
 
 .link--blue {
   background: var(--color-blue);
-  &:hover {
-    background: var(--color-dark-blue);
-  }
+}
+a.link--blue:hover {
+  background: var(--color-dark-blue);
 }
 .link--dark {
   background: var(--color-dark);

@@ -15,7 +15,7 @@
       text-decoration: none;
       transition: all 0.3s;
       &:hover {
-        color: var(--color-red);
+        color: var(--color-blue);
         &::before {
           background-image: url("../images/ico/arrow-right-red.svg");
         }
@@ -34,7 +34,7 @@
       }
     }
     .active {
-      color: var(--color-red);
+      color: var(--color-blue);
       &::before {
         background-image: url("../images/ico/arrow-right-red.svg");
       }
