@@ -22,10 +22,14 @@
       max-width: 168px;
       width: 100%;
       background-color: var(--color-light);
+      svg g,
+      svg path {
+        fill: var(--color-blue);
+      }
       &:hover {
-        background-color: var(--color-blood);
+        background-color: var(--color-blue);
         color: var(--color-light);
-        transform: scale(1.05);
+        transform: scale(1);
         svg g,
         svg path {
           fill: var(--color-light);
@@ -62,7 +66,7 @@
         min-height: 122px;
       }
       &:hover {
-        background-color: var(--color-blood);
+        background-color: var(--color-blue);
       }
     }
     &__icon {

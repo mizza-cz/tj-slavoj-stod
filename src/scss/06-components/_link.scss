@@ -7,10 +7,14 @@
   line-height: 20px;
   padding: 10px 22px;
   text-decoration: none;
+  transition: all 0.3s;
 }
 
-.link--red {
-  background: var(--color-red);
+.link--blue {
+  background: var(--color-blue);
+  &:hover {
+    background: var(--color-dark-blue);
+  }
 }
 .link--dark {
   background: var(--color-dark);
