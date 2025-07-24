@@ -7,8 +7,8 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-left: -12px;
+    margin-right: -12px;
     li {
       padding: 0 8px;
       margin-bottom: 16px;
@@ -18,10 +18,11 @@
     }
   }
   &__title {
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 68px;
+    font-size: 66px;
+    line-height: 88px;
+    font-weight: 700;
     margin-bottom: 32px;
+
     @include media-breakpoint-down(xl) {
       font-size: 40px;
       line-height: normal;
@@ -30,14 +31,13 @@
     span {
       display: block;
       color: var(--color-blue);
-      font-weight: 900;
     }
   }
   &__inner {
     display: flex;
     position: relative;
     align-items: center;
-    justify-content: space-evenly;
+
     @include media-breakpoint-down(lg) {
       flex-wrap: wrap;
     }
@@ -57,40 +57,37 @@
       flex: 100%;
       text-align: center;
       margin-bottom: 40px;
+      padding-bottom: 40px;
     }
-    .link {
-      padding: 16px 24px;
-      font-size: 16px;
-      font-weight: 600;
-      line-height: 20px;
-    }
-    p {
-      strong {
-        font-weight: 600;
-      }
-      font-size: 24px;
 
+    p {
+      font-size: 22px;
       line-height: 36px;
       margin-bottom: 32px;
-      font-weight: 300;
+      font-weight: 500;
       a {
         color: var(--color-blue);
       }
     }
   }
   &__img {
-    max-width: 30%;
-    flex: 0 0 30%;
+    max-width: 40%;
+    flex: 0 0 40%;
     aspect-ratio: 715/735;
     margin-right: 22px;
     position: relative;
     right: -21px;
+    position: absolute;
+    right: 0;
+    top: -60px;
+    height: calc(100% + 60px);
     @include media-breakpoint-down(lg) {
       max-width: 100%;
       flex: 100%;
       right: 0;
       left: 0;
       margin-right: 0;
+      display: none;
     }
     img {
       width: 100%;
@@ -99,6 +96,21 @@
       object-fit: cover;
       background-position: top;
       object-position: top;
+    }
+  }
+}
+
+.homeWrapper {
+  box-shadow: 0px 17.6px 17.6px 0px rgba(#0000001a, 0.05);
+  margin-bottom: 40px;
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 0;
+  }
+  &__inner {
+    position: relative;
+    padding-bottom: 60px;
+    @include media-breakpoint-down(lg) {
+      padding-bottom: 0;
     }
   }
 }

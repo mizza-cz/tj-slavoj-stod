@@ -4,6 +4,7 @@
   margin-bottom: 20px;
   aspect-ratio: 1420/571;
   position: relative;
+  text-decoration: none;
   @include media-breakpoint-down(lg) {
     aspect-ratio: 461/271;
     margin-bottom: 40px;
@@ -13,37 +14,35 @@
       text-decoration-color: inherit;
     }
   }
+  &__tags {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 100%;
+  }
   &-info {
-    position: absolute;
-    bottom: 64px;
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-top: 44px;
     @include media-breakpoint-down(lg) {
-      padding-left: 16px;
-      padding-right: 16px;
       position: relative;
-      bottom: auto;
     }
     h1 {
-      font-size: 48px;
-      font-weight: 600;
-      line-height: 52px;
-      margin-top: 20px;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 73px;
       text-decoration: underline;
       text-decoration-color: transparent;
+      margin-bottom: 28px;
       @include media-breakpoint-down(lg) {
         font-size: 32px;
         line-height: normal;
-        margin-top: 12px;
       }
     }
   }
   img {
     width: 100%;
-    height: 100%;
+    aspect-ratio: 1440/640;
     object-fit: cover;
     @include media-breakpoint-down(lg) {
-      margin-bottom: 18px;
+      height: 100%;
     }
   }
   .link {

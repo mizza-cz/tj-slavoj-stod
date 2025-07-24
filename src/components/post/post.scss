@@ -1,11 +1,31 @@
 .post {
   box-shadow: 0px 12px 34px rgba(0, 0, 0, 0.06), 0px 1px 7px rgba(0, 0, 0, 0.05);
   background-color: var(--color-light);
-  padding: 40px;
+  padding: 24px;
   .link {
     width: fit-content;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
   }
   p {
     font-weight: 300;
+  }
+  a {
+    text-decoration-color: transparent;
+    display: block;
+    &:hover {
+      text-decoration-color: inherit;
+    }
+  }
+  &__tags {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 100%;
   }
 }

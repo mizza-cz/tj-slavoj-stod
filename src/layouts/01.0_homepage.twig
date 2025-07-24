@@ -3,9 +3,18 @@ block main %}
 <div class="main-bg">
   {% include "@components/header/header.twig" %}
   <main class="main" aria-label="Hlavní obsah">
-    {% include "@components/top-section/top-section.twig" %} {% include
-    "@components/departments/departments.twig" %} {% include
-    "@components/posts-list/posts-list.twig" %}
+    <div class="homeWrapper">
+      <div class="container">
+        <div class="homeWrapper__inner">
+          <div class="top-section__img">
+            <img src="images/content/hero.png" loading="lazy" alt="" />
+          </div>
+          {% include "@components/top-section/top-section.twig" %} {% include
+          "@components/departments/departments.twig" %}
+        </div>
+      </div>
+    </div>
+    {% include "@components/posts-list/posts-list.twig" %}
   </main>
 </div>
 
