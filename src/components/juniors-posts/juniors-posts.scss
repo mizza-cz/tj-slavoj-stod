@@ -56,7 +56,10 @@
 }
 
 .juniors-posts {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 40px;
+  }
   a {
     text-decoration-color: transparent;
     &:hover {
@@ -96,6 +99,6 @@
     font-size: 14px;
     font-weight: 600;
     line-height: 18px;
-    color: var(--color-light);
+    color: var(--color-blue);
   }
 }

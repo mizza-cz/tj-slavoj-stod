@@ -29,9 +29,7 @@
     font-weight: 600;
     line-height: 1.25rem;
     transition: all 0.3s;
-    &:hover {
-      background: var(--color-blood);
-    }
+
     @include media-breakpoint-down(sm) {
       width: 100%;
     }

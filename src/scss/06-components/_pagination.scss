@@ -16,19 +16,19 @@
     align-items: center;
     justify-content: center;
     &:hover {
-      background: rgba(#d70000, 0.25);
-      color: var(--color-red);
+      background: rgba(#0098db, 0.25);
+      color: var(--color-blue);
     }
   }
   .page-item.active .page-link {
-    background-color: var(--color-red);
-    border-color: var(--color-red);
+    background-color: var(--color-blue);
+    border-color: var(--color-blue);
     color: var(--color-light);
   }
 
   .page-link {
-    color: var(--color-red);
+    color: var(--color-blue);
     border-radius: 4px !important;
-    border-color: var(--color-red);
+    border-color: var(--color-blue);
   }
 }

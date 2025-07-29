@@ -10,8 +10,12 @@
   }
   .juniors-posts__main-info {
     bottom: 118px;
+    position: absolute;
+    padding-left: 4rem;
+    padding-right: 4rem;
     @include media-breakpoint-down(lg) {
       bottom: auto;
+      position: relative;
     }
   }
 }
@@ -58,7 +62,7 @@
     }
   }
   &__col-link {
-    color: var(--color-red);
+    color: var(--color-dark-blue);
     display: block;
     text-align: center;
     width: fit-content;
