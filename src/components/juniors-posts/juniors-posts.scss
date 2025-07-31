@@ -102,3 +102,13 @@
     color: var(--color-blue);
   }
 }
+
+.juniors-posts__main-info {
+  .link {
+    position: relative;
+    top: 0 !important;
+    left: 0 !important;
+    width: fit-content;
+    margin-bottom: 4px;
+  }
+}

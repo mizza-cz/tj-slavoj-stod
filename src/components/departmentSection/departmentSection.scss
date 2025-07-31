@@ -13,8 +13,11 @@
     position: absolute;
     padding-left: 4rem;
     padding-right: 4rem;
+
     @include media-breakpoint-down(lg) {
       bottom: auto;
+      padding-left: 0;
+      padding-right: 0;
       position: relative;
     }
   }
