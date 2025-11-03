@@ -3,6 +3,9 @@
 .text-light {
   color: var(--color-light);
 }
+.text-accent {
+  color: var(--color-red) !important;
+}
 .container {
   padding-left: 16px !important;
   padding-right: 16px !important;

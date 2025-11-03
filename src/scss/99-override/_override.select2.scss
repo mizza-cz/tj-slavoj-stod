@@ -1,28 +1,28 @@
 /*! purgecss start ignore */
 .select2-container--default
   .select2-results__option--highlighted.select2-results__option--selectable {
-  background-color: var(--color-red);
+  background-color: var(--color-blue);
 }
 .select2-container {
   .select2-selection--single {
     height: auto;
     padding: 0.3rem 1.6rem 0.4rem 1.1rem;
-    border-color: var(--color-red);
+    border-color: var(--color-blue);
     outline: solid transparent 1px;
     transition: all 0.3s;
   }
 }
 .select2-container--open {
   .select2-selection--single {
-    border-color: var(--color-red);
-    outline-color: var(--color-red);
+    border-color: var(--color-blue);
+    outline-color: var(--color-blue);
   }
 }
 .-error {
   .select2-container {
     .select2-selection--single {
-      border-color: var(--color-red);
-      outline-color: var(--color-red);
+      border-color: var(--color-blue);
+      outline-color: var(--color-blue);
     }
   }
 }
@@ -33,7 +33,7 @@
   }
   .select2-container--default
     .select2-selection--single
-    .select2-selection__rendered {
+    .select2-selection__rendeblue {
     color: var(--color-light);
   }
   .select2-container {
@@ -85,23 +85,28 @@
     }
   }
   .select2-results__option--selected {
-    background-color: var(--color-red) !important;
+    background-color: var(--color-blue) !important;
     color: var(--color-light);
   }
   .select2-results__option--highlighted  {
-    background-color: var(--color-red) !important;
+    background-color: var(--color-blue) !important;
   }
 }
-.select2-container .select2-selection--single .select2-selection__rendered {
+.select2-container .select2-selection--single .select2-selection__rendeblue {
   color: var(--color-light);
   font-size: 14px;
   padding: 0;
   font-weight: 600;
 }
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  color: var(--color-light);
+}
 .select2-container--default .select2-selection--single {
-  border: 1px solid var(--color-red);
+  border: 1px solid var(--color-blue);
   height: 40px;
-  background-color: var(--color-red);
+  background-color: var(--color-blue);
   width: 11rem;
   border-radius: 0;
 
