@@ -3,8 +3,7 @@
   &__box {
     margin-bottom: 24px;
     padding: 32px 40px;
-    box-shadow:
-      0 0.75rem 2.125rem rgba(0, 0, 0, 0.06),
+    box-shadow: 0 0.75rem 2.125rem rgba(0, 0, 0, 0.06),
       0 0.0625rem 0.4375rem rgba(0, 0, 0, 0.05);
     border-radius: 12px;
     @include media-breakpoint-down(sm) {
